@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog produk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TokoKu</h1>
+        <p>Temuan produk favoritmu</p>
+    </header>
+    <main>
+        <h2>Daftar produk</h2>
+        <div class="produk-contanier">
+            <div class="produk">
+                <img src="" alt="sepatu">
+                <h3>Sepatu sport</h3>
+                <p>Rp.150.000</p>
+                <button onclick="LihatDetail('Sepatu keren','Merek Adidas')">
+                    Lihat detail
+                </button>
+                    
+            </div>
+            <div class="produk">
+                <img src="" alt="Tas">
+                <h3>Tas</h3>
+                <p>Rp85.000</p>
+                <button onclick="LihatDetail('Sepatu keren','Merek Adidas')">
+                    Lihat detail
+                </button>
+                    
+                
+            </div>
+            <div class="produk">
+                <img src="" alt="Jaket">
+                <h3>Jaket</h3>
+                <p>Rp64.000</p>
+                <button onclick="LihatDetail('Sepatu keren','Merek Adidas')">
+                    Lihat detail
+                </button>
+            </div>
+        </div>
+
+        <div class="detail" id="detail">
+            <h2 id="namaProduk"></h2>
+            <h3 id="HargaProduk"></h3>
+            <p id="deskripsiProduk"></p>
+            <button onclick="TutupDetail()">Tutup</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
